@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BUS TICKIT BOOKING API", "BUS TICKIT BOOKING API\BUS TICKIT BOOKING API.csproj", "{E407A8E3-090D-4D80-91BE-D6E0828480AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bus Test", "Bus Test\Bus Test.csproj", "{B5C66EE8-266E-4FF7-A416-803C88D62E08}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E407A8E3-090D-4D80-91BE-D6E0828480AA} = {E407A8E3-090D-4D80-91BE-D6E0828480AA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E407A8E3-090D-4D80-91BE-D6E0828480AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E407A8E3-090D-4D80-91BE-D6E0828480AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E407A8E3-090D-4D80-91BE-D6E0828480AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E407A8E3-090D-4D80-91BE-D6E0828480AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C66EE8-266E-4FF7-A416-803C88D62E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C66EE8-266E-4FF7-A416-803C88D62E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C66EE8-266E-4FF7-A416-803C88D62E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C66EE8-266E-4FF7-A416-803C88D62E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8EF85D1-D956-45B6-9896-142D68048BE9}
+	EndGlobalSection
+EndGlobal
